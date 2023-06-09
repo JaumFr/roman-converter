@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("S:\pexels-adrien-olichon-2387819.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    width: 13%;
+    height: 30%;
+    padding: 5px;
+    color: white;
+}
+
+input {
+    border-radius: 30px;
+    padding: 5px;
+    border-style: solid;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+button{
+    border-radius: 30px;
+    margin: 10px;
+}
+
+
